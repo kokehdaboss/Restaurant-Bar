@@ -1,0 +1,30 @@
+body{
+  display: flex;
+  margin: 0;
+  justify-content: center;
+}
+#content{
+  width: 500px;
+}
+.homeTab, .menuTab, .aboutTab {
+  display: inline-block;
+  border: 2px solid rgb(105, 97, 97);
+  color: rgb(105, 97, 97);
+  font-size: 25px;
+  padding: 8px 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.homeTab, .menuTab{
+  margin-right: 100px;
+}
+.page-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+img{
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
