@@ -1,10 +1,19 @@
+*{
+  box-sizing: border-box;
+}
 body{
   display: flex;
   margin: 0;
   justify-content: center;
+  min-height: 100vh;
 }
 #content{
-  width: 500px;
+  max-width: 500px;
+}
+.navbar-holder{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
 }
 .homeTab, .menuTab, .aboutTab {
   display: inline-block;
@@ -13,15 +22,38 @@ body{
   font-size: 25px;
   padding: 8px 16px;
   cursor: pointer;
-  margin-top: 10px;
-}
-.homeTab, .menuTab{
-  margin-right: 100px;
 }
 .page-content{
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.menu-background{
+  background-image: url(/5211696_2725037--45.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+.menu-background p{
+  color: green;
+  font-weight: 700;
+  cursor: pointer;
+}
+.seafood-menu {
+  height: fit-content;
+  width: 40%;
+  margin-left: 10px;
+  background-color: hsla(0, 0%, 100%, 0.7);
+}
+.drinks-menu{
+  height: fit-content;
+  width: 40%;
+  margin-right: 10px;
+  background-color: hsla(0, 0%, 100%, 0.7);
 }
 img{
   height: 100%;
