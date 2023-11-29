@@ -29,10 +29,7 @@ body{
   align-items: center;
 }
 .menu-background{
-  background-image: url(/5211696_2725037--45.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+  background-image: url(./738590b037afd07f793b.jpg);
   width: 100%;
   display: flex;
   justify-content: space-between;
