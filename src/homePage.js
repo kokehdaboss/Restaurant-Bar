@@ -1,3 +1,4 @@
+import homeImage from "./5211696_2725037--45.jpg";
 
 const createhomePage = () => {
   const DOMcontent = document.querySelector('#content');
@@ -11,7 +12,7 @@ const createhomePage = () => {
   // Assign ClassList, Text Content & Image Src
   pageContent.classList.add('page-content');
   h1.textContent = `Welcome to Our Restaurant`;
-  img.src = `/5211696_2725037--45.jpg`;
+  img.src = homeImage;
   p.textContent = `Order Anything you want`;
 
   // Append All

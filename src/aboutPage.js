@@ -1,4 +1,4 @@
-
+import aboutImg from './top-view-cocktail-essentials-with-mint-shaker-copy-space.jpg';
 
 const createAboutPage = () => {
   const content = document.querySelector('#content');
@@ -14,7 +14,7 @@ const createAboutPage = () => {
   // Add Attributes
   pageContent.classList.add('page-content');
   h1.textContent = `About Us`;
-  img.src = `/top-view-cocktail-essentials-with-mint-shaker-copy-space.jpg`;
+  img.src = aboutImg;
   p.textContent = `lorem ipsum`;
   contactDiv.classList.add('contact-div');
   contactParagraph.textContent = `Contact Us: `;

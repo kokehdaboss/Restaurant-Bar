@@ -1,4 +1,4 @@
-
+import menuImage from "./5211696_2725037--45.jpg";
 
 const createMenuPage = () => {
   const content = document.querySelector('#content');
@@ -29,6 +29,9 @@ const createMenuPage = () => {
   // Assign Attributes
   pageContent.classList.add('page-content');
   menuBackground.classList.add('menu-background');
+  menuBackground.style.backgroundRepeat = "no-repeat";
+  menuBackground.style.backgroundPosition = "center";
+  menuBackground.style.backgroundSize = "cover";
   seaFoodMenu.classList.add('seafood-menu');
   h1.textContent = `Our Menu`;
   p1.textContent = `Grilled Fish  --  ₦1,500`;
