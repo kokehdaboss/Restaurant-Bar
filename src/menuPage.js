@@ -1,4 +1,4 @@
-import menuImage from "./5211696_2725037--45.jpg";
+
 
 const createMenuPage = () => {
   const content = document.querySelector('#content');
